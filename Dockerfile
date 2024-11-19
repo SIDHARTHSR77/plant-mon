@@ -26,7 +26,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN mkdir -p static/uploads static/processed
 
 # Expose the port your app runs on
-EXPOSE 8080
+EXPOSE 5000
 
 # Run the application
 CMD ["python", "app.py"]
